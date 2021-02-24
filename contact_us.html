@@ -23,6 +23,22 @@
                 font-size: 24px;
                 display: block;
                 padding-left: 30px;
+                padding-bottom: 120px;
+            }
+            #textarea{
+                resize:none;
+                font-size:24px;
+                display: block;
+                width: 95%;
+                padding: 0;
+                border-width: 0;
+            }
+            #input{
+                font-size:24px;
+                display: block;
+                width: 60%;
+                padding: 0;
+                border-width: 0;
             }
         </style>
     </head>
@@ -54,13 +70,13 @@
         <div id="textbox">
             <form id="form">
                 Name (required):<br>
-                <input size="50" style="font-size:24px;"><br><br>
+                <input size="50" id="input"><br><br>
                 Your Email (required):<br>
-                <input size="50" style="font-size:24px;"><br><br>
+                <input size="50" id="input"><br><br>
                 Subject<br>
-                <input size="50" style="font-size:24px;"><br><br>
+                <input size="50" id="input"><br><br>
                 Your Message<br>
-                <textarea rows="6" cols="78" style="resize:none;font-size:24px;"></textarea><br><br>
+                <textarea rows="6" cols="78" id="textarea"></textarea><br>
                 <input type="submit" value="Send" style="width:4em;height:2em;font-size:38px;">
             </form>
         </div>
